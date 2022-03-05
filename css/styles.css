@@ -1,4 +1,4 @@
-body{
+body {
   background-color: bisque;
 }
 .content {
@@ -62,7 +62,60 @@ h1 {
   text-align: center;
   margin: 2em 0 3em;
 }
+.dosa-info {
+  background-color: darkgray;
+}
 
+h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+.dosa-info img,
+.samosa-info img,
+.dates-info img {
+  margin: 20px;
+  border-radius: 20px;
+  height: 360px;
+  width: 539px;
+}
+
+.dosa-food-content {
+  position: absolute;
+  width: 400px;
+  left: 800px;
+  bottom: 170px;
+}
+.samosa-info {
+  background-color: aqua;
+}
+
+.samosa-info img {
+  position: relative;
+  left: 600px;
+}
+.samosa-info {
+  position: relative;
+}
+.samosa-food-content {
+  position: absolute;
+  left: 50px;
+  bottom: 100px;
+}
+
+.dates-info {
+  background-color: lightgreen;
+}
+
+.dates-info {
+  position: relative;
+}
+
+.dates-food-content {
+  position: relative;
+  bottom: 250px;
+  left: 680px;
+}
 @media screen and (min-width: 800px) {
   .nav-container {
     width: 100%;
@@ -119,61 +172,5 @@ h1 {
   .page-content {
     width: 1200px;
     margin: 0 auto;
-  }
-
-  .dosa-info {
-    background-color: darkgray;
-  }
-
-  h3 {
-    text-align: center;
-    padding: 10px;
-  }
-
-  .dosa-info img,
-  .samosa-info img,
-  .dates-info img {
-    margin: 20px;
-    border-radius: 20px;
-    height: 360px;
-    width: 539px;
-  }
-
-  .dosa-food-content {
-    position: absolute;
-    width: 400px;
-    left: 800px;
-    bottom: 170px;
-  }
-  .samosa-info {
-    background-color: aqua;
-  }
-
-  .samosa-info img {
-    position: relative;
-    left: 600px;
-  }
-  .samosa-info {
-    position: relative;
-  }
-  .samosa-food-content {
-    position: absolute;
-    left: 50px;
-    bottom: 100px;
-  }
-
-  .dates-info {
-    background-color: lightgreen;
-  }
-
-  .dates-info{
-    position: relative;
-    
-  }
-
-  .dates-food-content{
-    position: relative;
-    bottom: 250px; 
-    left: 680px;
   }
 }
