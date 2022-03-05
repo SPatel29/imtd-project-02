@@ -3,11 +3,25 @@
   margin: 0 auto;
 }
 
-.video-content{
+.video-content {
   width: 60%;
 }
 
 .bleach {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.container-content{
+  margin-bottom: 5em;
+}
+
+.one-piece{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.attack-on-titan {
   width: 85%;
   margin: 0 auto;
 }
@@ -82,18 +96,27 @@ h1 {
   .nav-container li:nth-child(3) {
     margin-right: 10%;
   }
-  .container-content{
+/**rules ABOVE are for nav bar**/
+
+
+  .container-content {
     width: 20%;
     float: right;
+    margin-right: 10%;
   }
 
-  .video-content{
+  .video-content {
     float: left;
+    margin-bottom: 5em;
   }
 
-  .one-piece{
+  h2{
+    text-align: center;
+  }
+
+  .attack-on-titan{
     clear: both;
   }
+
 }
 
-/**rules ABOVE are for nav bar**/
