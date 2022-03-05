@@ -127,16 +127,34 @@ h1 {
     padding: 10px;
   }
 
-  .dosa-info img{
+  .dosa-info img , .samosa-info img, .dates-info img{
     margin: 20px;
     border-radius: 20px;
+    height: 360px;
+    width: 539px;
   }
 
-  .food-content{
+  .dosa-food-content{
     position: absolute;
     width: 400px;
     left:800px;
     bottom: 170px;
+  }
+  .samosa-info{
+    background-color: aqua;
+  }
+
+  .samosa-info img{
+    position: relative;
+    left: 600px;
+  }
+  .samosa-info{
+    position: relative;
+  }
+  .samosa-food-content{
+    position: absolute;
+    left: 50px;
+    bottom:100px;
   }
 }
 
