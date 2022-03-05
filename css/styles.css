@@ -12,11 +12,11 @@
   margin: 0 auto;
 }
 
-.container-content{
+.container-content {
   margin-bottom: 5em;
 }
 
-.one-piece{
+.one-piece {
   width: 85%;
   margin: 0 auto;
 }
@@ -96,8 +96,7 @@ h1 {
   .nav-container li:nth-child(3) {
     margin-right: 10%;
   }
-/**rules ABOVE are for nav bar**/
-
+  /**rules ABOVE are for nav bar**/
 
   .container-content {
     width: 20%;
@@ -110,13 +109,34 @@ h1 {
     margin-bottom: 5em;
   }
 
-  h2{
+  h2 {
     text-align: center;
   }
 
-  .attack-on-titan{
-    clear: both;
+  .page-content{
+    width: 1200px;
+    margin: 0 auto;
   }
 
+  .dosa-info{
+    background-color: darkgray;
+  }
+
+  h3{
+    text-align: center;
+    padding: 10px;
+  }
+
+  .dosa-info img{
+    margin: 20px;
+    border-radius: 20px;
+  }
+
+  .food-content{
+    position: absolute;
+    width: 400px;
+    left:800px;
+    bottom: 170px;
+  }
 }
 
