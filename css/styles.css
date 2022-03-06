@@ -6,6 +6,47 @@ body {
   margin: 0 auto;
 }
 
+.skills-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.education h2 {
+  text-align: center;
+}
+
+.education {
+  width: 90%;
+}
+
+.skills {
+  margin-top: 5em;
+}
+
+.skills h2 {
+  text-align: center;
+}
+
+.left h4 {
+  text-align: center;
+}
+.list {
+  width: 80%;
+  margin: 0 auto;
+}
+.list ul {
+  padding: 0;
+  margin-left: 40%;
+}
+
+.middle h4 {
+  text-align: center;
+}
+
+.right h4 {
+  text-align: center;
+}
+
 .video-content {
   width: 60%;
 }
@@ -51,6 +92,20 @@ body {
 .nav-container li a {
   display: block;
   padding: 0.8em 0;
+}
+
+.projects {
+  margin-top: 5em;
+  width: 90%;
+}
+
+.projects h4 {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.projects h2 {
+  text-align: center;
 }
 
 .nav-container li a:hover {
@@ -116,6 +171,34 @@ h3 {
   bottom: 250px;
   left: 680px;
 }
+
+.contact {
+  width: 90%;
+  margin-top: 5em;
+}
+
+.contact li {
+  display: block;
+  position: relative;
+  float: left;
+  margin-right: 2em;
+}
+
+.contact li a {
+  display: block;
+}
+
+.contact ul{
+  width: 90%;
+  overflow: hidden;
+  margin-left: 30%;
+
+}
+
+.contact h2 {
+  text-align: center;
+}
+
 @media screen and (min-width: 800px) {
   .nav-container {
     width: 100%;
@@ -172,5 +255,15 @@ h3 {
   .page-content {
     width: 1200px;
     margin: 0 auto;
+  }
+
+  .education {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 4em;
+  }
+  .education li {
+    text-align: center;
+    margin: 1em;
   }
 }
