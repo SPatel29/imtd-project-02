@@ -36,7 +36,6 @@ h4 {
 }
 .list ul {
   padding: 0;
-  margin-left: 40%;
 }
 
 .video-content {
@@ -174,7 +173,6 @@ h3 {
   display: block;
   position: relative;
   float: left;
-  margin-right: 2em;
 }
 
 .contact li a {
@@ -182,9 +180,7 @@ h3 {
 }
 
 .contact ul{
-  width: 90%;
   overflow: hidden;
-  margin-left: 30%;
 
 }
 
@@ -243,6 +239,7 @@ h3 {
 
   h2 {
     text-align: center;
+    margin-top: 2em;
   }
 
   .page-content {
@@ -262,7 +259,8 @@ h3 {
   .list li{
     margin-left: 0;
     width: 95%;
-    text-align: left;
+    text-align: center;
+    list-style: none;
   }
 
   
@@ -275,4 +273,13 @@ h3 {
   .projects{
     clear: both;
   }
+
+ li.just{
+    text-align: justify;
+    margin-bottom: 0.8em;
+  }
+li{
+  line-height: 2em;
+}
+
 }
