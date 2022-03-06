@@ -27,7 +27,7 @@ body {
   text-align: center;
 }
 
-.left h4 {
+h4 {
   text-align: center;
 }
 .list {
@@ -37,14 +37,6 @@ body {
 .list ul {
   padding: 0;
   margin-left: 40%;
-}
-
-.middle h4 {
-  text-align: center;
-}
-
-.right h4 {
-  text-align: center;
 }
 
 .video-content {
@@ -96,7 +88,7 @@ body {
 
 .projects {
   margin-top: 5em;
-  width: 90%;
+  
 }
 
 .projects h4 {
@@ -173,7 +165,6 @@ h3 {
 }
 
 .contact {
-  width: 90%;
   margin-top: 5em;
 }
 
@@ -265,5 +256,21 @@ h3 {
   .education li {
     text-align: center;
     margin: 1em;
+  }
+  .list li{
+    margin-left: 0;
+    width: 95%;
+    text-align: left;
+  }
+
+  
+  .left, .right, .center{
+    float: left;
+    width: 33%;
+    text-align: center;
+  }
+
+  .projects{
+    clear: both;
   }
 }
