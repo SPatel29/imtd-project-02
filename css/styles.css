@@ -212,6 +212,7 @@ h3 {
   position: relative;
   bottom: 250px;
   left: 680px;
+  width: 450px;
 }
 
 .contact {
@@ -291,6 +292,7 @@ h3 {
   h2 {
     text-align: center;
     font-size: 1.8em;
+    color: #d2394e;
   }
 
   .page-content {
